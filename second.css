@@ -1,0 +1,67 @@
+ 
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(195, 196, 220);
+    background-color: blue;
+}
+.weather-container{
+    
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+
+}
+h1{
+    color: black;
+}
+
+.weather-container input {
+    background-color: aqua;
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .weather-container button {
+    padding: 10px 20px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .weather-container button:hover {
+    background: #e68900;
+  }
+  .weather-info {
+    margin-top: 20px;
+  }
+  .weather-info p {
+    margin: 10px 0;
+  }
+
+
+
+/* Redesigned CSS for Weather App
+   - Swap this file in place of your original second.css
+   - No changes required to HTML or JavaScript
+*/
+
